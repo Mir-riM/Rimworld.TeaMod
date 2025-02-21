@@ -1,0 +1,17 @@
+<ModMetaData>
+  <name>Tea Mod</name>
+  <author>MirriM</author>
+  <packageId>MirriM.TeaMod</packageId>
+  <description>This mod adds tea bushes, tea leaves, and tea to RimWorld. Enjoy a refreshing cup of tea!</description>
+  <supportedVersions>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <!-- Если есть зависимости, добавьте их здесь -->
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <!-- Если нужно загружать после других модов, добавьте их здесь -->
+  </loadAfter>
+</ModMetaData>

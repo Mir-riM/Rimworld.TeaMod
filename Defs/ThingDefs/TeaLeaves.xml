@@ -1,0 +1,19 @@
+<Defs>
+  <ThingDef Parent="ResourceBase">
+    <defName>TeaLeaves</defName>
+    <label>tea leaves</label>
+    <description>Leaves harvested from a tea bush. Can be used to make tea.</description>
+    <graphicData>
+      <texPath>Textures/Items/TeaLeaves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.05</MarketValue> <!-- Базовая стоимость -->
+      <Mass>0.01</Mass> <!-- Вес одного листа -->
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li> <!-- Категория: сырьевые ресурсы -->
+    </thingCategories>
+    <stackLimit>500</stackLimit> <!-- Максимальное количество в стаке (уменьшено) -->
+  </ThingDef>
+</Defs>

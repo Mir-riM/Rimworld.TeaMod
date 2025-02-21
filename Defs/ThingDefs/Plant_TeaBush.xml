@@ -1,0 +1,28 @@
+<Defs>
+  <ThingDef Parent="PlantBase">
+    <defName>Plant_TeaBush</defName>
+    <label>tea bush</label>
+    <description>A bush that grows tea leaves. Requires warm temperatures to thrive.</description>
+    <graphicData>
+      <texPath>Textures/Plants/TeaBush</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <plant>
+      <harvestedThingDef>TeaLeaves</harvestedThingDef> <!-- Листья чая как ресурс -->
+      <harvestYield>100</harvestYield> <!-- Урожайность -->
+      <growDays>15</growDays> <!-- Время роста -->
+      <fertilityMin>0.75</fertilityMin> <!-- Минимальная плодородность почвы -->
+      <sowTags>
+        <li>Ground</li> <!-- Можно сажать на земле -->
+      </sowTags>
+      <sowResearchPrerequisites>
+        <li>BasicCultivation</li> <!-- Требуется исследование "Basic Cultivation" -->
+      </sowResearchPrerequisites>
+      <minOptimalTemperature>15</minOptimalTemperature> <!-- Минимальная температура для роста -->
+      <maxOptimalTemperature>45</maxOptimalTemperature> <!-- Максимальная температура для роста -->
+    </plant>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints> <!-- Здоровье куста -->
+    </statBases>
+  </ThingDef>
+</Defs>

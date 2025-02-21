@@ -1,0 +1,26 @@
+<Defs>
+  <ThingDef Parent="FoodBase">
+    <defName>Tea</defName>
+    <label>tea</label>
+    <description>A refreshing drink made from tea leaves. Slightly increases mood and satiety.</description>
+    <graphicData>
+      <texPath>Textures/Items/Tea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+      <Nutrition>0.1</Nutrition>
+      <Flavor>5</Flavor>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <joyKind>Tea</joyKind>
+      <joy>0.1</joy> <!-- Уровень удовольствия -->
+      <ingestSound>Ingest_Food</ingestSound>
+      <hediff>Hediff_TeaEffect</hediff> <!-- Применяемый эффект -->
+    </ingestible>
+  </ThingDef>
+</Defs>

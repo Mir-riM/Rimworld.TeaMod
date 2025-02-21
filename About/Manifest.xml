@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+  <identifier>TeaMod</identifier>
+  <version>1.0.0</version>
+  <dependencies>
+    <!-- Если есть зависимости, добавьте их здесь -->
+  </dependencies>
+  <incompatibleWith />
+  <loadBefore>
+    <!-- Если нужно загружать перед другими модами, добавьте их здесь -->
+  </loadBefore>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <!-- Если нужно загружать после других модов, добавьте их здесь -->
+  </loadAfter>
+  <manifestUri>https://raw.githubusercontent.com/MirriM/TeaMod/main/About/Manifest.xml</manifestUri>
+  <downloadUri>https://github.com/MirriM/TeaMod/releases</downloadUri>
+</Manifest>

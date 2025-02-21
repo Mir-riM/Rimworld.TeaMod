@@ -1,0 +1,36 @@
+<Defs>
+  <RecipeDef>
+    <defName>MakeTea</defName>
+    <label>make tea</label>
+    <description>Brew tea from tea leaves.</description>
+    <jobString>Brewing tea.</jobString>
+    <workAmount>200</workAmount> <!-- Время на приготовление -->
+    <workSkill>Cooking</workSkill> <!-- Навык: кулинария -->
+    <workSpeedStat>CookingSpeed</workSpeedStat> <!-- Зависит от скорости готовки -->
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>TeaLeaves</li> <!-- Ингредиент: листья чая -->
+          </thingDefs>
+        </filter>
+        <count>10</count> <!-- Количество листьев -->
+      </li>
+    </ingredients>
+    <products>
+      <li>
+        <thingDef>Tea</thingDef> <!-- Результат: 1 порция чая -->
+        <count>1</count>
+      </li>
+    </products>
+    <defaultIngredientFilter>
+      <categories>
+        <li>ResourcesRaw</li> <!-- Фильтр для ингредиентов -->
+      </categories>
+    </defaultIngredientFilter>
+    <recipeUsers>
+      <li>Campfire</li> <!-- Можно готовить на костре -->
+      <li>ElectricStove</li> <!-- Можно готовить на плите -->
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

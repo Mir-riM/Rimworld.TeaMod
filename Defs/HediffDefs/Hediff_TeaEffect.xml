@@ -1,0 +1,20 @@
+<Defs>
+  <HediffDef>
+    <defName>Hediff_TeaEffect</defName>
+    <label>tea effect</label>
+    <description>A soothing effect from drinking tea. Slightly increases mood and satiety.</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+      <li Class="HediffComp_ChangeNeed">
+        <need>Food</need> <!-- Тип потребности: еда -->
+        <offset>0.05</offset> <!-- Увеличение сытости -->
+      </li>
+      <li Class="HediffComp_Disappears">
+        <disappearsAfterTicks>90000</disappearsAfterTicks> <!-- Эффект длится 12 часов (90000 тиков) -->
+      </li>
+      <li Class="HediffComp_SeverityPerDay">
+        <severityPerDay>0.1</severityPerDay> <!-- Изменение настроения -->
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>
